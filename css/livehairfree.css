@@ -31,6 +31,15 @@
   color: #222222;
 }
 
+.lhf-inline-icon {
+  display: inline-block;
+  min-width: 14px;
+  margin-right: 5px;
+  color: #ec5598;
+  font-weight: 700;
+  text-align: center;
+}
+
 .lhf-hero-copy .h1,
 .lhf-hero-copy .h4 {
   color: #fff;
@@ -174,12 +183,13 @@
 
 @media (max-width: 767.98px) {
   .site-logo {
-    height: 72px !important;
-    margin-top: 8px;
+    height: 56px !important;
+    margin-top: 0;
   }
 
   .site-name {
     font-size: 12px;
+    margin-top: 4px;
   }
 }
 
@@ -256,6 +266,31 @@
 
 .lhf-registry-count {
   margin: 6px 0 18px;
+}
+
+.callAction .row {
+  align-items: center;
+}
+
+@media (max-width: 767.98px) {
+  .callAction {
+    text-align: center;
+  }
+
+  .callAction .callInfo {
+    margin-bottom: 8px;
+  }
+}
+
+.not-found-page .main-wrapper,
+.not-found-page main {
+  min-height: 100vh;
+}
+
+.not-found-page .notFound {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .lhf-registry-list .registry-item {
@@ -339,13 +374,21 @@
 }
 
 .career-hero {
-  background: url("/img/home/electrology-training-hero.jpg") right center/cover no-repeat;
+  background-image: url("/img/home/electrology-training-hero.jpg");
+  background-image: image-set(url("/img/home/electrology-training-hero.webp") type("image/webp"), url("/img/home/electrology-training-hero.jpg") type("image/jpeg"));
+  background-position: right center;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #ffffff;
   padding: 104px 0 94px;
 }
 
 .discount-hero {
-  background: url("/img/home/discount-electrology-hero.jpg") center/cover no-repeat;
+  background-image: url("/img/home/discount-electrology-hero.jpg");
+  background-image: image-set(url("/img/home/discount-electrology-hero.webp") type("image/webp"), url("/img/home/discount-electrology-hero.jpg") type("image/jpeg"));
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #ffffff;
   padding: 104px 0 94px;
 }

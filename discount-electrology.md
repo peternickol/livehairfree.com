@@ -31,7 +31,10 @@ seo_image: /img/home/discount-electrology-hero.jpg
         <p>When schedules are full, you can still move forward through our <a href="{{ '/find-an-electrologist/' | relative_url }}">Find an Electrologist</a> page.</p>
       </div>
       <div class="col-md-5">
-        <img src="{{ '/img/home/discount-electrology-offer.jpg' | relative_url }}" alt="Discount student electrology services" class="img-responsive career-image" loading="lazy" decoding="async" />
+        <picture>
+          <source srcset="{{ '/img/home/discount-electrology-offer.webp' | relative_url }}" type="image/webp" />
+          <img src="{{ '/img/home/discount-electrology-offer.jpg' | relative_url }}" alt="Discount student electrology services" class="img-responsive career-image" loading="lazy" decoding="async" width="1007" height="693" />
+        </picture>
       </div>
     </div>
   </div>

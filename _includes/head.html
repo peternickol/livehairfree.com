@@ -42,11 +42,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
 {% if page.url == "/" %}
-<link rel="preload" as="image" href="{{ '/img/home/home-slider-discount-services.jpg' | relative_url }}" fetchpriority="high" />
+<link rel="preload" as="image" href="{{ '/img/home/home-slider-discount-services.webp' | relative_url }}" type="image/webp" fetchpriority="high" />
 {% endif %}
 
 <link href="{{ '/plugins/bootstrap/css/bootstrap.min.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/plugins/font-awesome/css/font-awesome.min.css' | relative_url }}" rel="stylesheet" />
 {% if page.uses_carousel %}
 <link href="{{ '/plugins/owl-carousel/owl.carousel.min.css' | relative_url }}" rel="stylesheet" />
 {% endif %}

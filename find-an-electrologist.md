@@ -57,7 +57,15 @@ seo_image: /img/electrologists/electrologist-profile-placeholder.jpg
           {% else %}
             {% assign registry_image_url = '/img/electrologists/' | append: registry_image | relative_url %}
           {% endif %}
+          {% assign registry_image_webp_url = registry_image_url | replace: '.jpg', '.webp' %}
+          {% if registry_image contains '://' %}
           <img class="img-responsive lhf-registry-image" src="{{ registry_image_url }}" alt="{{ person.name }}" loading="lazy" decoding="async" />
+          {% else %}
+          <picture>
+            <source srcset="{{ registry_image_webp_url }}" type="image/webp" />
+            <img class="img-responsive lhf-registry-image" src="{{ registry_image_url }}" alt="{{ person.name }}" loading="lazy" decoding="async" />
+          </picture>
+          {% endif %}
         </div>
         <div class="col-sm-7">
           <h3>{{ person.name }}</h3>

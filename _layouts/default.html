@@ -3,13 +3,17 @@
   <head>
     {% include head.html %}
   </head>
-  <body id="body" class="body-wrapper static">
+  <body id="body" class="body-wrapper static{% if page.body_class %} {{ page.body_class }}{% endif %}">
     <div class="main-wrapper">
+      {% unless page.hide_header %}
       {% include header.html %}
+      {% endunless %}
       <main>
         {{ content }}
       </main>
+      {% unless page.hide_footer %}
       {% include footer.html %}
+      {% endunless %}
     </div>
     {% include scripts.html %}
   </body>

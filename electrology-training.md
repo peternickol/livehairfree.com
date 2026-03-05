@@ -31,7 +31,10 @@ seo_image: /img/home/electrology-training-hero.jpg
         <p>At the <a href="https://centerforelectrology.com" target="_blank" rel="noopener">Center for Electrology</a>, students train in real treatment workflows, client communication, and professional standards that matter in day-to-day practice.</p>
       </div>
       <div class="col-md-5">
-        <img src="{{ '/img/home/electrology-training-student-session.jpg' | relative_url }}" alt="Electrology student training" class="img-responsive career-image" loading="lazy" decoding="async" />
+        <picture>
+          <source srcset="{{ '/img/home/electrology-training-student-session.webp' | relative_url }}" type="image/webp" />
+          <img src="{{ '/img/home/electrology-training-student-session.jpg' | relative_url }}" alt="Electrology student training" class="img-responsive career-image" loading="lazy" decoding="async" width="699" height="641" />
+        </picture>
       </div>
     </div>
   </div>

@@ -2,12 +2,15 @@
   <div class="aboutInner">
     <div class="sepcialContainer">
       <div class="row">
-        <div class="col-sm-6 col-xs-12 rightPadding">
+        <div class="col-12 col-sm-6 rightPadding">
           <div class="imagebox">
-            <img class="img-responsive lazyestload" data-src="{{ '/img/home/electrology-consultation-about.jpg' | relative_url }}" src="{{ '/img/home/electrology-consultation-about.jpg' | relative_url }}" alt="Electrology consultation" />
+            <picture>
+              <source srcset="{{ '/img/home/electrology-consultation-about.webp' | relative_url }}" type="image/webp" />
+              <img class="img-responsive" src="{{ '/img/home/electrology-consultation-about.jpg' | relative_url }}" alt="Electrology consultation" loading="lazy" decoding="async" width="540" height="400" />
+            </picture>
           </div>
         </div>
-        <div class="col-sm-6 col-xs-12">
+        <div class="col-12 col-sm-6">
           <div class="aboutInfo">
             <h2>Center for Electrology</h2>
             <h3>Helping clients and future professionals make the right next step.</h3>
