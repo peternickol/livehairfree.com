@@ -1,0 +1,25 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for p in site.html_pages %}
+    {% unless p.sitemap == false or p.noindex or p.url contains "/404" or p.url contains "/feed" or p.url contains "/sitemap.xml" or p.url contains "/robots.txt" %}
+      <url>
+        <loc>{{ p.url | replace: "index.html", "" | absolute_url }}</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+        <changefreq>{% if p.url == "/" %}weekly{% else %}monthly{% endif %}</changefreq>
+        <priority>{% if p.url == "/" %}1.0{% else %}0.7{% endif %}</priority>
+      </url>
+    {% endunless %}
+  {% endfor %}
+  {% for post in site.posts %}
+    <url>
+      <loc>{{ post.url | replace: "index.html", "" | absolute_url }}</loc>
+      <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  {% endfor %}
+</urlset>

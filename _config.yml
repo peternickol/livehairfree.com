@@ -1,19 +1,45 @@
+# Donor Theme:
+# https://preview.themeforest.net/item/angel-beauty-spa-massage-salon-theme/full_screen_preview/19626945
+#
 title: Live Hair Free
 email: info@livehairfree.com
+author: Live Hair Free
+lang: en-US
+contact_form_provider: "formster"
+contact_form_action: "https://submit.formster.com/YOUR_FORM_ID"
 description: >-
   Live Hair Free helps people find discounted student electrology services,
   explore electrology training, and connect with trained electrologists when
   student appointments are not available.
 baseurl: ""
-url: ""
+url: "https://livehairfree.com"
+logo: "/img/live-hair-free-logo.png"
+social_image: "/img/live-hair-free-logo.png"
+twitter:
+  card: summary_large_image
 timezone: America/Los_Angeles
 
 markdown: kramdown
 theme: null
+permalink: pretty
+
+kramdown:
+  input: GFM
 
 collections:
   pages:
     output: true
+
+exclude:
+  - .git
+  - .github
+  - .jekyll-cache
+  - _site
+  - _src
+  - vendor
+  - README.md
+  - Gemfile
+  - Gemfile.lock
 
 defaults:
   - scope:

@@ -1,11 +1,33 @@
-<section class="hero">
-  <div class="container">
-    <h1>{{ page.hero_title | default: site.title }}</h1>
-    <p>{{ page.hero_text | default: site.description }}</p>
-    <div class="hero-actions">
-      <a class="button" href="{{ '/discount-electrology/' | relative_url }}">Get Discount Services</a>
-      <a class="button button-secondary" href="{{ '/electrology-training/' | relative_url }}">Become an Electrologist</a>
-      <a class="button button-secondary" href="{{ '/find-an-electrologist/' | relative_url }}">Request a Referral</a>
+<section class="main-slider" data-loop="true" data-autoplay="true" data-interval="7000">
+  <div class="inner">
+    <div class="slide slideResize" style="background-image: url('{{ '/img/home/home-slider-discount-services.jpg' | relative_url }}');">
+      <div class="container">
+        <div class="slide-inner1 common-inner lhf-hero-copy">
+          <span class="h1 from-bottom">{{ page.hero_title | default: site.title }}</span><br />
+          <span class="h4 from-bottom">{{ page.hero_text | default: site.description }}</span><br />
+          <a href="{{ '/discount-electrology/' | relative_url }}" class="btn btn-primary first-btn">Get Discount Services</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide slideResize" style="background-image: url('{{ '/img/home/home-slider-electrology-training.jpg' | relative_url }}');">
+      <div class="container">
+        <div class="slide-inner2 common-inner lhf-hero-copy">
+          <span class="h1 from-bottom">Train For A Rewarding Career</span><br />
+          <span class="h4 from-bottom">Explore professional electrology training through the Center for Electrology.</span><br />
+          <a href="{{ '/electrology-training/' | relative_url }}" class="btn btn-primary first-btn">Become an Electrologist</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide slideResize" style="background-image: url('{{ '/img/home/home-slider-find-electrologist.jpg' | relative_url }}');">
+      <div class="container">
+        <div class="slide-inner2 common-inner lhf-hero-copy">
+          <span class="h1 from-bottom">Need Faster Appointments?</span><br />
+          <span class="h4 from-bottom">Search trained professionals when student appointments are limited.</span><br />
+          <a href="{{ '/find-an-electrologist/' | relative_url }}" class="btn btn-primary first-btn">Find an Electrologist</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>

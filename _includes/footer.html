@@ -1,5 +1,21 @@
-<footer class="site-footer">
+<footer class="site-footer themed-footer" style="background-image: url('{{ '/img/home/footer-background-texture.jpg' | relative_url }}');">
   <div class="container">
-    <p>&copy; {{ "now" | date: "%Y" }} {{ site.title }}.</p>
+    <div class="row">
+      <div class="col-md-8">
+        <p><img src="{{ '/img/live-hair-free-logo.png' | relative_url }}" alt="{{ site.title }}" class="site-logo site-logo-footer" /></p>
+        <p>{{ site.description }}</p>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-unstyled footer-links">
+          <li><a href="{{ '/discount-electrology/' | relative_url }}">Discount Services</a></li>
+          <li><a href="{{ '/electrology-training/' | relative_url }}">Electrology Training</a></li>
+          <li><a href="{{ '/find-an-electrologist/' | relative_url }}">Find an Electrologist</a></li>
+          <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright-row">
+      <p>&copy; {{ "now" | date: "%Y" }} {{ site.title }}.</p>
+    </div>
   </div>
 </footer>

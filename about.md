@@ -1,12 +1,22 @@
 ---
-layout: page
-title: About
+layout: null
+title: About Redirect
 permalink: /about/
+noindex: true
 ---
-
-Live Hair Free is the public website for the Center for Electrology.
-
-We help people choose the right next step:
-1. Book discounted student electrology services.
-2. Learn how to train for a career in electrology.
-3. Get connected with trained electrologists when discounted student appointments are not available.
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta http-equiv="refresh" content="0; url={{ '/contact/' | relative_url }}" />
+    <link rel="canonical" href="{{ '/contact/' | absolute_url }}" />
+    <title>Redirecting...</title>
+  </head>
+  <body>
+    <p>Redirecting to <a href="{{ '/contact/' | relative_url }}">Contact</a>...</p>
+    <script>
+      window.location.replace("{{ '/contact/' | relative_url }}");
+    </script>
+  </body>
+</html>

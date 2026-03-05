@@ -1,0 +1,40 @@
+{% assign org_name = site.title | jsonify %}
+{% assign org_url = site.url | append: site.baseurl | jsonify %}
+{% assign org_logo = site.logo | absolute_url | jsonify %}
+{% assign page_url = page.url | replace: "index.html", "" | absolute_url | jsonify %}
+{% assign page_name = page.title | default: site.title | jsonify %}
+{% assign page_desc = page.seo_description | default: page.description | default: page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 200 | jsonify %}
+{% assign page_image = page.seo_image | default: site.social_image | absolute_url | jsonify %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": {{ org_name }},
+      "url": {{ org_url }},
+      "logo": {{ org_logo }}
+    },
+    {
+      "@type": "WebSite",
+      "name": {{ org_name }},
+      "url": {{ org_url }}
+    },
+    {
+      "@type": "WebPage",
+      "name": {{ page_name }},
+      "url": {{ page_url }},
+      "description": {{ page_desc }},
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": {{ org_name }},
+        "url": {{ org_url }}
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": {{ page_image }}
+      }
+    }
+  ]
+}
+</script>

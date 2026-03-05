@@ -1,8 +1,16 @@
 ---
 layout: default
 ---
-<article class="post">
-  <h1>{{ page.title }}</h1>
-  <p class="meta">{{ page.date | date: "%B %-d, %Y" }}</p>
-  {{ content }}
-</article>
+<section class="container-fluid clearfix padding blog blog-fullwidth">
+  <div class="container">
+    <article class="blogPost lhf-page-post post">
+      <h1>{{ page.title }}</h1>
+      <ul class="list-inline">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i> {{ page.date | date: "%B %-d, %Y" }}</li>
+      </ul>
+      {{ content }}
+    </article>
+  </div>
+</section>
+
+{% include theme-call-action.html %}

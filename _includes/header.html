@@ -1,12 +1,25 @@
-<header class="site-header">
-  <div class="container">
-    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-    <nav class="site-nav">
-      <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/discount-electrology/' | relative_url }}">Discount Services</a>
-      <a href="{{ '/electrology-training/' | relative_url }}">Electrology Training</a>
-      <a href="{{ '/find-an-electrologist/' | relative_url }}">Find an Electrologist</a>
-      <a href="{{ '/about/' | relative_url }}">About</a>
-    </nav>
-  </div>
+<header id="pageTop" class="header">
+  <nav class="navbar navbar-expand-md main-nav navbar-light navbar-scrollUp">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="navbar-brand site-brand" href="{{ '/' | relative_url }}">
+        <img src="{{ '/img/live-hair-free-logo.png' | relative_url }}" alt="{{ site.title }}" class="site-logo" />
+        <span class="site-name">{{ site.title }}</span>
+      </a>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="{{ '/discount-electrology/' | relative_url }}">Discount Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="{{ '/electrology-training/' | relative_url }}">Electrology Training</a></li>
+          <li class="nav-item"><a class="nav-link" href="{{ '/find-an-electrologist/' | relative_url }}">Find an Electrologist</a></li>
+          <li class="nav-item"><a class="nav-link" href="{{ '/contact/' | relative_url }}">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 </header>

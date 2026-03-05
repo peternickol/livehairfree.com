@@ -1,0 +1,35 @@
+- name: "Rainey J. Dean"
+  location: "Portland, Oregon"
+  accepting_clients: true
+  phrase: "I'm passionate about you. You need the gentle, empathetic care required to make your vision a reality, whatever that vision may be. It may be gender affirming, aesthetic, or managing a hormonal condition; regardless, it's within reach. Let's chat and see if we will make a good team."
+  image: "rainey-dean-electrologist-portland.jpg"
+  email: "electrolysis.gentle@gmail.com"
+  website: "https://www.starvoltaelectrolysis.com/"
+  phone: "503-462-8197"
+
+- name: "Jodi Wynn"
+  location: "Portland, OR"
+  accepting_clients: true
+  phrase: "Jodi Wynn is an Oregon native. She grew up near North Plains and graduated from Glencoe High School. Young at heart and always up for a fun time at the coast or on the mountain, she mostly spends time with her partner and kids."
+  image: "jodi-wynn-electrologist-portland.jpg"
+  email: "jodiwynnturner@gmail.com"
+  website: ""
+  phone: ""
+
+- name: "Felicia Gwyn"
+  location: "Portland, OR"
+  accepting_clients: true
+  phrase: "Cats Paw Electrology offers permanent hair removal and advanced skin treatments in Portland, Oregon. Specializing in electrolysis and microneedling, we deliver personalized care in a comfortable, inclusive space. Smooth skin, expert service, and long-term results because you deserve to feel confident in your skin."
+  image: "felicia-gwyn-electrologist-portland.jpg"
+  email: "catspawelectrology@gmail.com"
+  website: "https://www.catspawelectrology.com"
+  phone: "503-710-8333"
+
+- name: "Shay Witten, LE"
+  location: "North Portland/Kenton neighborhood"
+  accepting_clients: false
+  phrase: "Shay Witten (they/them) is a genderqueer licensed electrologist accepting Pacificsource and CareOregon insurance as well as self-funded and superbill clients. Shay believes in person-centered care, and is excited to work with each client to understand and achieve their specific goals, within the bounds of each client's own limits and ability. New clients are waitlist only at this time."
+  image: "shay-witten-electrologist-portland.jpg"
+  email: "shay@wildwoodelectro.com"
+  website: "https://wildwoodelectro.com"
+  phone: "503.251.5902"
