@@ -8,4 +8,8 @@ seo_description: Reach out to Live Hair Free for electrology service requests, t
 seo_image: /img/live-hair-free-logo.png
 ---
 
+<div class="secotionTitle">
+  <h2><span>Contact</span>Get In Touch</h2>
+</div>
+
 {% include theme-contact.html %}
