@@ -1,0 +1,11 @@
+<section class="hero">
+  <div class="container">
+    <h1>{{ page.hero_title | default: site.title }}</h1>
+    <p>{{ page.hero_text | default: site.description }}</p>
+    <div class="hero-actions">
+      <a class="button" href="{{ '/discount-electrology/' | relative_url }}">Get Discount Services</a>
+      <a class="button button-secondary" href="{{ '/electrology-training/' | relative_url }}">Become an Electrologist</a>
+      <a class="button button-secondary" href="{{ '/find-an-electrologist/' | relative_url }}">Request a Referral</a>
+    </div>
+  </div>
+</section>

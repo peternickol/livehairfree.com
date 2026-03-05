@@ -1,0 +1,27 @@
+title: Live Hair Free
+email: info@livehairfree.com
+description: >-
+  Live Hair Free helps people find discounted student electrology services,
+  explore electrology training, and connect with trained electrologists when
+  student appointments are not available.
+baseurl: ""
+url: ""
+timezone: America/Los_Angeles
+
+markdown: kramdown
+theme: null
+
+collections:
+  pages:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+    values:
+      layout: default
