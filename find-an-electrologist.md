@@ -2,13 +2,14 @@
 layout: page
 title: Find an Electrologist
 permalink: /find-an-electrologist/
-description: Search and filter licensed electrologists by location and client availability.
+description: Search and filter electrologists by location and client availability.
+seo_title: Find An Electrologist In Oregon
 seo_description: Use the Live Hair Free registry to find electrologists in Oregon and nearby areas by name, location, and current availability.
 seo_image: /img/electrologists/electrologist-profile-placeholder.jpg
 ---
 
 <div class="secotionTitle">
-  <h2><span>Registry </span>Find an Electrologist</h2>
+  <h2><span>Registry </span>Find An Electrologist</h2>
 </div>
 
 <p><strong>Search, filter, and sort trained electrologists</strong> by name, location, and current client availability.</p>

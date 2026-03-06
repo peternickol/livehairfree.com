@@ -2,8 +2,9 @@
 layout: default
 title: Discount Electrology
 permalink: /discount-electrology/
-description: Book lower-cost electrology services through supervised student clinic appointments.
-seo_description: Access affordable, supervised student electrology services and learn what to expect with discount treatment options and waitlist availability.
+description: Book cheap and discount electrology services in Portland through supervised student clinic appointments.
+seo_title: Discount Electrology Services In Portland
+seo_description: Access cheap and discount electrology services in Portland, Oregon, through supervised student appointments and learn what to expect before you book.
 seo_image: /img/home/discount-electrology-hero.jpg
 ---
 
@@ -11,8 +12,8 @@ seo_image: /img/home/discount-electrology-hero.jpg
   <div class="container">
     <div class="career-hero-inner">
       <p class="career-kicker">Discount Services</p>
-      <h1>Affordable Electrology Through Supervised Student Services</h1>
-      <p class="career-lead"><strong>Get lower-cost permanent hair removal while supporting hands-on training at the Center for Electrology.</strong></p>
+      <h1>Cheap And Discount Electrology In Portland</h1>
+      <p class="career-lead"><strong>Get lower-cost permanent hair removal in Portland while supporting hands-on training at the Center for Electrology.</strong></p>
       <a class="btn btn-primary first-btn" href="{{ '/contact/' | relative_url }}">Request An Appointment</a>
     </div>
   </div>

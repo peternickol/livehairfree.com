@@ -1,15 +1,16 @@
 ---
 layout: default
-title: Contact
+title: Discount Electrology Portland Contact
 permalink: /contact/
 title_bg: /img/blog/page-title-background-contact.jpg
-description: Contact Live Hair Free to request discount electrology services, training information, or referrals.
-seo_description: Reach out to Live Hair Free for electrology service requests, training inquiries, and referral support.
-seo_image: /img/live-hair-free-logo.png
+description: Request cheap and discount electrology services in Portland, Oregon, and get help finding affordable permanent hair removal options.
+seo_title: Cheap Electrology Services In Portland
+seo_description: Contact Live Hair Free to ask about cheap and discount electrology services in Portland, Oregon, including supervised student treatment options.
+seo_image: /img/home/discount-electrology-hero.jpg
 ---
 
 <div class="secotionTitle">
-  <h2><span>Contact</span>Get In Touch</h2>
+  <h2><span>Portland Discount Electrology</span>Request Affordable Treatment Information</h2>
 </div>
 
 {% include theme-contact.html %}
