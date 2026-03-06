@@ -45,13 +45,13 @@
 <link rel="preload" as="image" href="{{ '/img/home/home-slider-discount-services.webp' | relative_url }}" type="image/webp" fetchpriority="high" />
 {% endif %}
 
-<link href="{{ '/plugins/bootstrap/css/bootstrap.min.css' | relative_url }}" rel="stylesheet" />
+<link href="{% include asset-url.html path='/plugins/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" />
 {% if page.uses_carousel %}
-<link href="{{ '/plugins/owl-carousel/owl.carousel.min.css' | relative_url }}" rel="stylesheet" />
+<link href="{% include asset-url.html path='/plugins/owl-carousel/owl.carousel.min.css' %}" rel="stylesheet" />
 {% endif %}
 
-<link href="{{ '/css/style.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/css/default.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/css/livehairfree.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/img/live-hair-free-favicon.png' | relative_url }}" rel="shortcut icon" />
+<link href="{% include asset-url.html path='/css/style.css' %}" rel="stylesheet" />
+<link href="{% include asset-url.html path='/css/default.css' %}" rel="stylesheet" />
+<link href="{% include asset-url.html path='/css/livehairfree.css' %}" rel="stylesheet" />
+<link href="{% include asset-url.html path='/img/live-hair-free-favicon.png' %}" rel="shortcut icon" />
 {% include seo-jsonld.html %}

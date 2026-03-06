@@ -1,0 +1,1 @@
+{%- assign asset = site.static_files | where: "path", include.path | first -%}{{- include.path | relative_url -}}{%- if asset -%}?v={{ asset.modified_time | date: "%s" }}{%- endif -%}
