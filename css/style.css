@@ -196,6 +196,12 @@ figure {
   letter-spacing: normal;
 }
 
+@media (max-width: 767.98px) {
+  .secotionTitle h2 span {
+    line-height: 68px;
+  }
+}
+
 .btn {
   font-family: 'Open Sans', sans-serif;
   line-height: 15px;

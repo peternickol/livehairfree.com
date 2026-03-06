@@ -182,6 +182,12 @@
 }
 
 @media (max-width: 767.98px) {
+  .main-nav .navbar-toggler {
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
   .site-logo {
     height: 56px !important;
     margin-top: 0;
@@ -253,6 +259,18 @@
 
   .btn + .btn {
     margin-left: 0;
+  }
+
+  .main-slider .btn,
+  .main-slider .btn.first-btn,
+  .main-slider .btn.btn-primary,
+  .main-slider .btn.btn-secondary {
+    min-width: 0;
+    width: auto;
+    display: inline-block;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-bottom: 0;
   }
 }
 
@@ -521,6 +539,18 @@
 .career-proof p {
   font-size: 1.05rem;
   line-height: 1.75;
+}
+
+.homeValueSection .secotionTitle {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media (min-width: 768px) {
+  .homeValueSection .secotionTitle {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .career-proof .secotionTitle p {
