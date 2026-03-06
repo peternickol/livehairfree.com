@@ -50,6 +50,19 @@
   text-align: left;
 }
 
+@media (max-width: 767px) {
+  .main-slider .lhf-hero-copy .h1 {
+    font-size: 30px !important;
+    line-height: 1.1 !important;
+  }
+
+  .main-slider .lhf-hero-copy .h4 {
+    font-size: 18px !important;
+    line-height: 1.4 !important;
+    max-width: 320px;
+  }
+}
+
 @media (min-width: 768px) {
   .main-slider .slide-inner1,
   .main-slider .slide-inner2,

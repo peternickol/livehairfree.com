@@ -1255,6 +1255,12 @@ textarea.form-control {
   margin: 0 0 25px;
 }
 
+@media (max-width: 767px) {
+  .contactTitle {
+    padding: 0 16px;
+  }
+}
+
 .holdingInfo {
   padding: 40px 50px 30px 30px;
   margin: 45px 0 0;
